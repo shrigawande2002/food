@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  max-width: 95rem;
+  height: 26rem;
+}
+.header ul {
+  display: flex;
+  flex-direction: row;
+}
+.header ul li {
+  padding: 2rem;
+  color: white;
+  font-size: 1.4rem;
+  padding: 1rem;
+  list-style: none;
+  cursor: pointer;
+}
+.logo {
+  color: #f5deb3;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+.logo span {
+  color: orange;
+}
+.serch-icon {
+  margin-left: 25rem;
+}
+.heading {
+  color: white;
+  align-items: center;
+  margin-left: 20rem;
+  margin-top: 8.5rem;
+}
+.heading h1 {
+  margin-left: auto;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+
+/* items */
+.flex {
+  display: flex;
+}
+.listingproduct {
+  margin-top: 5rem;
+}
+.serch {
+  margin-top: 10rem;
+}
+.serch input {
+  height: 4rem;
+  width: 50rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.listing-product {
+  border: 2px solid gray;
+  max-width: 70%;
+  border-radius: 8px;
+  height: 19rem;
+  display: flex;
+  margin-left: 10px;
+}
+.listing-product img {
+  height: 19rem;
+  width: 20rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.product-info {
+  width: 50rem;
+  margin-left: 10rem;
+}
+.product-info h3 {
+  font-size: 3rem;
+  padding: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.product-info p {
+  font-size: 1.6rem;
+  color: gray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.product-info i {
+  color: gold;
+  size: 3rem;
+}
+.serch button {
+  width: 10rem;
+  height: 4rem;
+  border-radius: 10px;
+  background-image: linear-gradient(120deg, #f6d356, #fda085);
+  color: white;
+  font-family: "Poppoins", cursive;
+  border: none;
+  margin-left: 1.5rem;
+}

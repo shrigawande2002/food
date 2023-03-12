@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+}
+
+.navbar {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.logo {
+  margin-left: 6rem;
+  color: #f5deb3;
+}
+
+.logo h1 span {
+  color: rgb(253, 195, 88);
+}
+nav ul {
+  display: flex;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-left: 4rem;
+}
+.navbar ul li {
+  padding: 1rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+.serch-icon {
+  margin-left: 33rem;
+}
+/* background */
+
+.background-section img {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.serch {
+  margin: auto;
+  text-align: center;
+}
+.serch input {
+  border: none;
+  height: 5vh;
+  padding: 0.5rem;
+  width: 30%;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.serch h1 {
+  margin-left: auto;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+.serch button {
+  color: white;
+  font-weight: 50;
+  height: 8vh;
+  width: 10%;
+  border-radius: 20px;
+  border: none;
+  background: orange;
+}
+
+.steps {
+  display: flex;
+  margin-top: 70px;
+}
+.step1 {
+  background-color: #22262f;
+  height: 35vh;
+  width: 25vw;
+  border-radius: 10px;
+  color: white;
+  font-family: "Norican", cursive;
+  display: block;
+  margin-left: 20px;
+  margin-top: 90px;
+}
+.step2 {
+  background-color: #22262f;
+  height: 35vh;
+  width: 25vw;
+  border-radius: 10px;
+  color: white;
+  font-family: "Norican", cursive;
+  display: block;
+  margin-left: 140px;
+  margin-top: 90px;
+}
+.step3 {
+  background-color: #22262f;
+  height: 35vh;
+  width: 25vw;
+  border-radius: 10px;
+  color: white;
+  font-family: "Norican", cursive;
+  display: block;
+  margin-left: 140px;
+  margin-top: 90px;
+}
+.step1 h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.step1 p {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.step1 h4 {
+  margin-top: 5px;
+}
+
+/* /....... */
+
+.step2 h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.step2 p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.step2 h4 {
+  margin-top: 5px;
+}
+
+.step3 h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.step3 p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.step3 h4 {
+  margin-top: 5px;
+}
+
+.heading2 h3 {
+  color: #d8ab37;
+  font-family: "Norican", cursive;
+  text-align: center;
+  margin-top: 120px;
+  font-family: "Square Peg", cursive;
+  font-size: 2rem;
+}
+.heading2 h1 {
+  color: black;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.heading2 p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.restaurants {
+  display: flex;
+}
+.resto1 {
+  margin-left: 50px;
+  border-radius: 5px;
+  margin-top: 50px;
+  position: relative;
+}
+.resto1 img {
+  border-radius: 7px;
+
+  border-radius: 7px;
+}
+.resto1 h1 {
+  position: absolute;
+  top: 50vh;
+  font-size: 3rem;
+  color: white;
+
+  /* font-weight: 500; */
+}
+
+.restaurants {
+  background-color: black;
+  margin-top: 5rem;
+}
+
+.restaurants img {
+  opacity: 0.5;
+  transition: 0.3s ease;
+}
+.restaurants img:hover {
+  opacity: 1;
+}
+.btn {
+  color: white;
+  font-weight: 50;
+  height: 7vh;
+  width: 10%;
+  border-radius: 20px;
+  border: none;
+  background: orange;
+  margin-left: 35rem;
+  margin-top: 2rem;
+  margin-bottom: 14px;
+}
+.resto1 button {
+  position: absolute;
+  top: 50vh;
+  z-index: 4;
+  color: white;
+  top: 0;
+  height: 8vh;
+  width: 10vw;
+  background-color: orange;
+  transition: none;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+footer {
+  background-color: white;
+  height: 10vh;
+  background-color: #ffffff;
+  opacity: 0.8;
+  background-image: radial-gradient(#000100 1.05px, transparent 1.05px),
+    radial-gradient(#000100 1.05px, #ffffff 1.05px);
+  background-size: 42px 42px;
+  background-position: 0 0, 21px 21px;
+}
+.more {
+  background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar ul li {
+    padding: 0.625rem;
+    font-size: 0.7rem;
+    display: flex;
+  }
+
+  .logo h1 {
+    font-size: 0.5rem;
+  }
+  .background-section img {
+    max-height: 100%;
+    width: 100%;
+  }
+  .background-section h1 {
+    font-size: 2rem;
+    margin-top: 0.625rem;
+    margin-right: -1.6rem;
+  }
+
+  .serch h1 {
+    font-size: 1.5rem;
+  }
+  .serch button {
+    height: 10vh;
+    width: 31vh;
+  }
+  .steps {
+    margin-left: -1rem;
+    margin-top: -56px;
+    margin-bottom: -83px;
+  }
+  .step2 {
+    margin-left: 3.2rem;
+  }
+  .step3 {
+    margin-left: 3.2rem;
+  }
+  .step1 h3 {
+    font-size: 0.9rem;
+  }
+  .step2 h3 {
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+  }
+  .step3 h3 {
+    font-size: 0.9rem;
+  }
+  .restaurants {
+    flex-direction: column;
+  }
+  .restaurants img {
+    max-height: 80%;
+    max-width: 80%;
+  }
+}
